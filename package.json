@@ -7,10 +7,10 @@
     "mutex"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bmutex.git",
-  "homepage": "https://github.com/bcoin-org/bmutex",
+  "repository": "git://github.com/raptoracle/bmutex.git",
+  "homepage": "https://github.com/raptoracle/bmutex",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bmutex/issues"
+    "url": "https://github.com/raptoracle/bmutex/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/bmutex.js",
@@ -20,11 +20,11 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.12"
+    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
   },
   "devDependencies": {
-    "bmocha": "^2.1.8",
-    "bts-type-deps": "^0.0.3"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0",
+    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git#semver:=0.0.3"
   },
   "engines": {
     "node": ">=8.0.0"
